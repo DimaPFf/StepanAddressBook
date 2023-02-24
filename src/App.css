@@ -66,7 +66,7 @@ input {
   height: 5vh;
   padding-left: 20px;
   border: 1px solid gray;
-  background-color: aliceblue;
+/*   background-color: aliceblue; */
 }
 
 input:focus {
@@ -129,4 +129,22 @@ select{
 
 .add-person > * {
   margin: 5px
+}
+
+.add-form-modal{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left:0;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(169, 169, 169, 0.5);
+}
+
+.add-form-modal-content{
+  opacity:1;
+  z-index: 10;
+  background: white;
 }
